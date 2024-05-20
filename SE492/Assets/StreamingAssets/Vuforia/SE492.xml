@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="hcl" size="1.000000 1.333333"/>
+        <ImageTarget name="h2o" size="1.000000 1.333333"/>
+        <ImageTarget name="c" size="1.000000 1.333333"/>
+        <ImageTarget name="cl" size="1.000000 1.333333"/>
+        <ImageTarget name="h" size="1.000000 1.333333"/>
+        <ImageTarget name="o" size="1.000000 1.333333"/>
+        <ImageTarget name="muze" size="1.000000 0.643525"/>
+        <ImageTarget name="istanbul" size="1.000000 1.554127"/>
+        <ImageTarget name="izmir" size="1.000000 0.634061"/>
+        <ImageTarget name="Uzay" size="2.000000 2.000000"/>
+        <ImageTarget name="edin" size="1.000000 1.000000"/>
+        <ImageTarget name="t.Back" size="1.000000 1.000000"/>
+        <ImageTarget name="t.Left" size="1.000000 1.000000"/>
+        <ImageTarget name="t.Top" size="1.000000 1.000000"/>
+        <ImageTarget name="t.Right" size="1.000000 1.000000"/>
+        <ImageTarget name="t.Front" size="1.000000 1.000000"/>
+        <ImageTarget name="t.Bottom" size="1.000000 1.000000"/>
+        <MultiTarget name="t">
+            <Part name="t.Left" translation="-0.5 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="t.Right" translation="0.5 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="t.Front" translation="0 0 0.5" rotation="AD: 1 0 0 0"/>
+            <Part name="t.Back" translation="0 0 -0.5" rotation="AD: 0 1 0 180"/>
+            <Part name="t.Top" translation="0 0.5 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="t.Bottom" translation="0 -0.5 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
